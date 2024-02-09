@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Thu Feb  8 21:57:05 2024 as: nmap -p- --open --min-rate 10000 -oN open_ports 10.10.11.227
+Nmap scan report for 10.10.11.227 (10.10.11.227)
+Host is up (0.33s latency).
+Not shown: 33697 closed tcp ports (reset), 31836 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Thu Feb  8 21:57:18 2024 -- 1 IP address (1 host up) scanned in 12.85 seconds
